@@ -1,0 +1,187 @@
+%-------------------------
+% Resume in Latex
+% Author : nekocode, Sourabh Bajaj
+% License : MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+% Set chinese font
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setCJKmainfont{STKaiti}
+\linespread{1.2}\selectfont
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\usepackage{xltxtra,xunicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% https://tex.stackexchange.com/questions/99316/symbol-for-external-links
+\usepackage{tikz}
+\newcommand{\ExternalLink}{%
+    \tikz[x=1.0ex, y=1.0ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+                --++ (-0, 1.2) 
+                --++ (0.6, 0) 
+                --++ (0, -0.6) 
+                --++ (0.6, 0) 
+                --++ (0, -1);
+            \path[draw, 
+                line width = 0.5, 
+                rounded corners=0.5] 
+                (0,0) rectangle (0.8,0.8);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+            -- (1, 1) -- (1, 0.6);
+        }
+    }
+
+%------------Custom commands-------------
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    {#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[3]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {#1} & \textit{\small #2} \\
+      {\small #3} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\link}[2]{\href{#1}{#2}\ExternalLink}
+
+
+
+%-------------------------
+% Document starts here
+%-------------------------
+
+\begin{document}
+
+%------------HEADING-------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge 杨凡} & Email : \link{mailto:nekocode.cn@gmail.com}{nekocode.cn@gmail.com}\\
+  \link{http://nekocode.cn}{nekocode.cn} & Mobile : +183-1092-7892 \\
+\end{tabular*}
+
+
+%------------EDUCATION-------------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {广州大学}{2011/09 - 2015/06}
+      {软件工程，本科学士，CET-4}
+  \resumeSubHeadingListEnd
+
+
+%------------EXPERIENCE-------------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {智者四海（北京）技术有限公司}{2017/02 - 至今}
+      {Android Engineer}
+      \resumeItemListStart
+        \resumeItem{知乎 Android Client（千万级日活）}
+          {开发知识市场相关业务，并负责对应用性能进行 Profile \& 优化。}
+        \resumeItem{\link{https://github.com/zhihu/zhihu-rxjava-meetup}{「知乎 x RxJava Meetup」}}
+          {作为组内 ReactiveX 技术核心推广者，对外分享 RxJava 在知乎内的推广和应用。}
+        \resumeItem{\link{https://github.com/nekocode/ResourceInspector}{ResourceInspector}}
+          {依赖 Stetho 开发的 Debug Tool，用于快速查看当前页面所使用 Layout 资源。}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {快乐迭代（北京）网络科技有限公司}{2016/10 - 2017/01}
+      {Android Tech Lead}
+      \resumeItemListStart
+        \resumeItem{滑滑 Android Client}
+          {指导团队使用 Kotlin 语言重构整个客户端，并普及单元测试。}
+        \resumeItem{\link{https://github.com/nekocode/Kotlin-Android-Template}{Kotlin-Android-Template}}
+          {使用 Kotlin/MVP/ReactiveX 搭建的项目模板，用于为公司快速开发新项目。}
+        \resumeItem{Maven, CI Services}
+          {使用 Docker 为公司搭建 Maven 以及持续集成服务，维护了 \link{https://github.com/nekocode/docker-android}{docker-android} 以及自动打包等镜像。}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {广东数库互联网金融信息服务有限公司}{2015/01 - 2016/09}
+      {Android Tech Lead \& Python Enigneer}
+      \resumeItemListStart
+        \resumeItem{数库金服 Android Client}
+          {使用 Kotlin/ReactiveX 技术栈搭建。}
+        \resumeItem{\link{https://github.com/nekocode/weixin_vote}{公众号投票平台}，\link{https://github.com/nekocode/wcmovie_test}{测试小游戏平台}}
+          {使用 Python 语言为公司开发各种公众号后端。}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%------------SIDE PROJECTS-------------
+\section{\textbf{Side Projects (在 \href{https://github.com/nekocode}{github.com/nekocode} 上查看更多)}}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\link{https://github.com/nekocode/CameraFilter}{CameraFilter} (Java)}
+      {移植 Shadertoy.com 上多个滤镜的 Shader 代码到 Android 系统上。}
+    \resumeSubItem{\link{https://github.com/nekocode/Hubs}{Hubs} (Java/Lua)}
+      {支持使用 Lua 语言开发插件的内容 Hub 应用。}
+    \resumeSubItem{\link{https://github.com/nekocode/Badge}{Badge} (Java)}
+      {Android 系统下的 Badge Drawable。}
+    \resumeSubItem{\link{https://github.com/nekocode/Murmur}{Murmur} (Kotlin/RxJava)}
+      {第三方豆瓣 FM 红心频道播放器，使用 Kotlin 和 Java 语言开发。}
+    \resumeSubItem{\link{https://github.com/nekocode/Meepo}{Meepo} (Java)}
+      {Android 系统下的通用路由生成器。}
+    \resumeSubItem{\link{https://github.com/nekocode/ItemPool}{ItemPool} (Java)}
+      {用于对 Android RecyclerView 里的 ViewHolder 和 Adapter 做解耦。}
+    \resumeSubItem{\link{https://github.com/nekocode/doubanfm-py}{doubanfm-py} (Python)}
+      {使用 Python 语言开发的 Terminal 版豆瓣电台。}
+    \resumeSubItem{\link{https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin}{android-parcelable-intellij-plugin-kotlin} (Java)}
+      {为 Kotlin 类自动生成模版 Parcelable 代码的 Intellij 产检，目前有近 \link{https://plugins.jetbrains.com/plugin/8086-parcelable-code-generator-for-kotlin-}{3 万下载量。}}
+    \resumeSubItem{\link{https://github.com/nekocode/BattleBeats}{BattleBeats} (C++)}
+      {使用 C++/DirectX 开发的弹幕游戏，获院游戏制作比赛一等奖。}
+  \resumeSubHeadingListEnd
+
+
+\end{document}
