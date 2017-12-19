@@ -13,10 +13,10 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 
-% Set chinese font
+% Set chinese fonts
 \usepackage{fontspec}
 \usepackage{xeCJK}
 \setCJKmainfont{STKaiti}
@@ -24,6 +24,9 @@
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 \usepackage{xltxtra,xunicode}
+
+% Set main fonts
+\usepackage{fourier}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -46,7 +49,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % https://tex.stackexchange.com/questions/99316/symbol-for-external-links
@@ -93,7 +96,7 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-\newcommand{\link}[2]{\href{#1}{#2}\ExternalLink}
+\newcommand{\link}[2]{\href{#1}{\underline{#2}}\ExternalLink}
 
 
 
@@ -105,13 +108,13 @@
 
 %------------HEADING-------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Huge 杨凡} & Email : \link{mailto:nekocode.cn@gmail.com}{nekocode.cn@gmail.com}\\
-  \link{http://nekocode.cn}{nekocode.cn} & Mobile : +183-1092-7892 \\
+  \textbf{\Huge 杨凡} & \textit{Email : \href{mailto:nekocode.cn@gmail.com}{nekocode.cn@gmail.com}}\\
+  \link{http://nekocode.cn}{\scshape{Nekocode.cn}} & \textit{Mobile : 183-1092-7892} \\
 \end{tabular*}
 
 
 %------------EDUCATION-------------
-\section{\textbf{Education}}
+\section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {广州大学}{2011/09 - 2015/06}
@@ -120,7 +123,7 @@
 
 
 %------------EXPERIENCE-------------
-\section{\textbf{Experience}}
+\section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
@@ -141,7 +144,7 @@
       \resumeItemListStart
         \resumeItem{滑滑 Android Client}
           {指导团队使用 Kotlin 语言重构整个客户端，并在组内普及单元测试。}
-        \resumeItem{\link{https://github.com/nekocode/Kotlin-Android-Template}{Kotlin-Android-Template}}
+        \resumeItem{\link{https://github.com/nekocode/Kotlin-Android-Template}{Kotlin-Android-Template} (Kotlin)}
           {使用 Kotlin/MVP/ReactiveX 搭建的项目模板，用于为公司快速开发新项目。}
         \resumeSubItem{\link{https://github.com/nekocode/ItemPool}{ItemPool} (Java)}
           {用于对 Android RecyclerView 里的 ViewHolder 和 Adapter 做解耦。}
@@ -163,7 +166,7 @@
 
 
 %------------SIDE PROJECTS-------------
-\section{\textbf{Side Projects (在 \href{https://github.com/nekocode}{github.com/nekocode} 上查看更多)}}
+\section{Side Projects (在 \href{https://github.com/nekocode}{github.com/nekocode} 上查看更多)}
   \resumeSubHeadingListStart
     \resumeSubItem{\link{https://github.com/nekocode/CameraFilter}{CameraFilter} (Java)}
       {把 Shadertoy.com 上多个滤镜的 Shader 代码移植到 Android 系统上。}
@@ -178,7 +181,7 @@
     \resumeSubItem{\link{https://github.com/nekocode/doubanfm-py}{doubanfm-py} (Python)}
       {使用 Python 语言开发的 Terminal 版豆瓣电台。}
     \resumeSubItem{\link{https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin}{android-parcelable-intellij-plugin-kotlin} (Java)}
-      {Intellij 插件，可以为 Kotlin 类生成 Parcelable 模板代码，目前有近 \link{https://plugins.jetbrains.com/plugin/8086-parcelable-code-generator-for-kotlin-}{3 万下载量。}}
+      {Intellij 插件，有近 \link{https://plugins.jetbrains.com/plugin/8086-parcelable-code-generator-for-kotlin-}{3 万下载量}，能为 Kotlin 类生成 Parcelable 模板代码。}
     \resumeSubItem{\link{https://github.com/nekocode/BattleBeats}{BattleBeats} (C++)}
       {使用 C++/DirectX 开发的弹幕游戏，获院游戏制作比赛一等奖。}
   \resumeSubHeadingListEnd
