@@ -1,0 +1,44 @@
+/** Copied from https://github.com/cognitom/paper-css
+/** with some modifications **/
+@page {
+  margin: 0;
+  size: A5;
+}
+body {
+  margin: 0;
+}
+.sheet {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+}
+
+/** Paper sizes **/
+body.A4 .sheet { width: 210mm; height: 296mm }
+
+/** Padding area **/
+.sheet.padding-10mm { padding: 10mm }
+.sheet.padding-15mm { padding: 15mm }
+.sheet.padding-20mm { padding: 20mm }
+.sheet.padding-25mm { padding: 25mm }
+
+/** For screen preview **/
+@media screen {
+  body {
+    background-color: rgb(82, 86, 89);
+  }
+  .sheet {
+    background: white;
+    box-shadow: 0 .5mm 2mm rgba(0,0,0,.8);
+    margin: 5mm auto;
+  }
+}
+
+/** Fix for Chrome issue #273306 **/
+@media print {
+  body.A4 {
+    width: 210mm;
+  }
+}

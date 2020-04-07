@@ -1,0 +1,11 @@
+baseURL: "https://resume.nekocode.cn/"
+disableKinds:
+  - "taxonomy"
+  - "taxonomyTerm"
+  - "RSS"
+  - "sitemap"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

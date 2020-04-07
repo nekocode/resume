@@ -1,0 +1,85 @@
+@import "paper";
+@import "fontello";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Open Sans', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-end: 5px;
+}
+
+h2 {
+  &:first-letter {
+    font-size: 140%;
+  }
+}
+
+ul {
+  margin-block-start: 0;
+  list-style-type: '• ';
+  padding-inline-start: 0.8em;
+  li {
+    .item {
+      margin-top: 10px;
+    }
+    &:first-child {
+      .item {
+        margin-top: 0px;
+      }
+    }
+    margin-bottom: 2px;
+  }
+
+  ul {
+    margin-top: 5px;
+    list-style-type: '◦ ';
+    padding-inline-start: 2em;
+  }
+}
+
+a {
+  color: blue;
+  &::after {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+  
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+
+    content: '\e80b'
+  }
+}
+
+.item {
+  font-weight: bold;
+  .title {
+    display: flex;
+    div {
+      flex: 1;
+      font-size: 17px;
+      line-height: 19px;
+    }
+    i {
+      font-size: 13px;
+      line-height: 19px;
+    }
+  }
+}
+
+.print-btn {
+  position: absolute;
+  top: 20px;
+  @media print {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+}
