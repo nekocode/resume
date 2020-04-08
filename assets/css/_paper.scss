@@ -1,8 +1,12 @@
 /** Copied from https://github.com/cognitom/paper-css
 /** with some modifications **/
+$paper-widh: 210mm;
+$paper-height: 296mm;
+$paper-padding: 10mm;
+
 @page {
   margin: 0;
-  size: A5;
+  size: A4;
 }
 body {
   margin: 0;
@@ -13,16 +17,10 @@ body {
   position: relative;
   box-sizing: border-box;
   page-break-after: always;
+  width: $paper-widh;
+  height: $paper-height;
+  padding: $paper-padding;
 }
-
-/** Paper sizes **/
-body.A4 .sheet { width: 210mm; height: 296mm }
-
-/** Padding area **/
-.sheet.padding-10mm { padding: 10mm }
-.sheet.padding-15mm { padding: 15mm }
-.sheet.padding-20mm { padding: 20mm }
-.sheet.padding-25mm { padding: 25mm }
 
 /** For screen preview **/
 @media screen {
@@ -38,7 +36,7 @@ body.A4 .sheet { width: 210mm; height: 296mm }
 
 /** Fix for Chrome issue #273306 **/
 @media print {
-  body.A4 {
-    width: 210mm;
+  body {
+    width: $paper-widh;
   }
 }

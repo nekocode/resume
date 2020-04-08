@@ -82,6 +82,9 @@ a {
 .print-btn {
   position: absolute;
   top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: $paper-widh - $paper-padding * 2;
   @media print {
     display: none;
   }
