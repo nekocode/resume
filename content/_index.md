@@ -20,6 +20,7 @@ title: 杨凡的简历
   * [typescript-graphql-over-prisma (TypeScript)](https://github.com/nekocode/typescript-graphql-over-prisma) : 结合 GraphQL 和 Prisma 编写的 Node 后端 Demo
   * [github_email_crawler (TypeScript)](https://github.com/nekocode/github_email_crawler) : 结合 RxJS 编写的 GitHub 用户邮箱爬⾍
   * 多个外包项目 : 含括 React/Ant Design、Flutter、Kotlin/AndroidX 等技术栈
+
 * {{< item title="知乎（北京）" date="2017/02 - 2019/03" subtitle="Android Infrastructure Developer" >}}
   * 知乎 Android 客户端 (亿级用户) : 基础 SDK 和 DevOps 支持、客户端性能 Profile 和优化
   * [ResourceInspector (Java)](https://github.com/nekocode/ResourceInspector) : 使用 Chrome DevTools 来检查某个页面所有用到的 Layout ⽂件
@@ -29,11 +30,13 @@ title: 杨凡的简历
   * [GradleImportAar (Kotlin)](https://github.com/nekocode/GradleImportAar) : 在 Java 项目中实现依赖 AAR 库
   * [Bangcle-Crypto-Wrapper (Java)](https://github.com/nekocode/Bangcle-Crypto-Wrapper) : 编译期自动加密敏感密钥
   * 知乎 x RxJava Meetup : 担任主讲⼈，在线下分享知乎团队使用 RxJava 的历史
+
 * {{< item title="快乐迭代（北京）⽹络科技有限公司" date="2016/10 - 2017/01" subtitle="Android Tech Lead" >}}
   * 滑滑 Android 客户端 : 领导团队使用 Kotlin 语⾔重构旧客户端
   * [create-android-kotlin-app (Kotlin)](https://github.com/nekocode/create-android-kotlin-app) : 使用 Kotlin/AndroidX 搭建的项目模板
   * [Items (Kotlin)](https://github.com/nekocode/Items) : 使用 Annotation Processor 为列表视图⽣成 Adapter 类
   * Maven, CI 服务 : 使用 Docker 为公司搭建 Maven 以及 CI 服务，维护了 [docker-android](https://github.com/nekocode/docker-android)
+
 * {{< item title="⼴东数库互联⽹⾦融信息服务有限公司" date="2015/01 - 2016/09" subtitle="Android Tech Lead & Web Developer" >}}
   * 数库⾦服 Android 客户端 : 使用 Kotlin/ReactiveX 技术栈搭建
   * [公众号投票](https://github.com/nekocode/weixin_vote)/[测试小游戏](https://github.com/nekocode/wcmovie_test)平台 : 使用 Python 语⾔为公司开发各种公众号前/后端
