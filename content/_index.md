@@ -24,6 +24,7 @@ title: 杨凡的简历
 * {{< item title="知乎（北京）" date="2017/02 - 2019/03" subtitle="Android Infrastructure Developer" >}}
   * 知乎 Android 客户端 (亿级用户) : 基础 SDK 和 DevOps 支持、客户端性能 Profile 和优化
   * [ResourceInspector (Java)](https://github.com/nekocode/ResourceInspector) : 使用 Chrome DevTools 来检查某个页面所有用到的 Layout ⽂件
+  * [DepAnPlugin (Kotlin)](https://github.com/nekocode/DepAnPlugin) : 提取字节码依赖信息的 Gradle Plugin
   * [JarFilterPlugin (Kotlin)](https://github.com/nekocode/JarFilterPlugin) : 快速替换第三⽅库指定类的 Gradle Plugin
   * [ASM-Systrace (Java)](https://github.com/nekocode/ASM-Systrace) : 使用 ASM 修改字节码实现 Systrace 自动插桩
   * [RxLifecycle](https://github.com/zhihu/RxLifecycle) : 非侵⼊式的 Rx 自动取消订阅库
