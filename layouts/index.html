@@ -12,10 +12,10 @@
   {{- $cssSource := resources.Get "css/main.scss" }}
   {{- if .Site.IsServer }}
   {{- $style := $cssSource | toCSS (dict "enableSourceMap" true) }}
-  <link rel="stylesheet" href="{{ ($style | fingerprint).RelPermalink | relURL }}">
+  <link rel="stylesheet" href="{{ ($style | fingerprint).RelPermalink }}">
   {{- else }}
   {{- $style := $cssSource | toCSS (dict "outputStyle" "compressed") }}
-  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink | relURL }}">
+  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
   {{- end }}
 </head>
 

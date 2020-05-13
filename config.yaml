@@ -1,4 +1,4 @@
-baseURL: "https://resume.nekocode.cn/"
+baseURL: "https://nekocode.cn/resume/"
 disableKinds:
   - "taxonomy"
   - "taxonomyTerm"
