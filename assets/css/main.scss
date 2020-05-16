@@ -91,4 +91,8 @@ a {
   button {
     cursor: pointer;
   }
+  @media (max-width: $paper-widh) {
+    width: 100%;
+    left: -10px;
+  }
 }

@@ -20,6 +20,13 @@ body {
   width: $paper-widh;
   height: $paper-height;
   padding: $paper-padding;
+
+  @media (max-width: $paper-widh) {
+    width: 100%;
+    overflow: scroll;
+    padding: $paper-padding 10px;
+    height: auto;
+  }
 }
 
 /** For screen preview **/
