@@ -33,7 +33,7 @@ ul {
   padding-inline-start: 0.8em;
   li {
     .item {
-      margin-top: 10px;
+      margin-top: 15px;
     }
     &:first-child {
       .item {
@@ -58,12 +58,12 @@ a {
     font-weight: normal;
   
     display: inline-block;
-    text-decoration: inherit;
+    text-decoration: none;
     width: 1em;
     margin-right: .2em;
     text-align: center;
 
-    content: '\e80b'
+    content: '\e800'
   }
 }
 
