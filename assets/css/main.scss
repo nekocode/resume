@@ -1,10 +1,11 @@
+@import "normalize";
 @import "paper";
 @import "fontello";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  font-family: 'Open Sans', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 15px;
+  line-height: 20px;
 }
 
 article {
@@ -19,12 +20,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   &:first-letter {
-    font-size: 140%;
+    font-size: 120%;
+  }
+  + p {
+    margin-block-start: 0px;
   }
 }
 
 p {
   padding-inline-start: 0.8em;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
 }
 
 ul {
