@@ -8,7 +8,7 @@ title: 杨凡的简历
 
 ## FRONTEND DEVELOPER
 
-前端（Android/Flutter/Web）工程师，热爱研究、学习和分享。有一定的带领团队经验以及些许社区影响力，曾为多家公司成功内推、培养过高潜力人才。开源爱好者，本人 GitHub 账号（ID: [nekocode](http://git-awards.com/users/nekocode)）已向开源社区贡献了超过 70 个项目，并且拥有 1.2k 个关注者。
+前端（Android/Flutter/Web）工程师，热爱研究、学习和分享。有一定的带领团队经验以及些许社区影响力，曾为多家公司成功内推、培养过高潜力人才。开源爱好者，本人 GitHub 账号（ID: [nekocode](https://github.com/nekocode)）已向开源社区贡献了超过 70 个项目，收获近万个 Star，并且拥有 1.2k 个关注者。
 
 熟练于:
 
