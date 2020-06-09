@@ -20,13 +20,13 @@ title: 杨凡的简历
 ## EMPLOYMENT HISTORY
 
 * {{< item title="自由职业" date="2019/05 - Now" subtitle="Fullstack Developer" >}}
-  * 使用 Kotlin、Jetpack、ReactiveX，为一家跨国加密货币交易所公司构建 Android 客户端
-  * 使用 Flutter、GraphQL，为一家国内初创公司构建 Android 和 iOS 客户端、并上线 App Store
-  * 使用 React、Docker、OpenResty，为一家台湾公司构建海外加速的服务器节点编排和 Web 前端
+  * 使用 Kotlin, Jetpack, ReactiveX，为一家跨国加密货币交易所公司构建 Android 客户端
+  * 使用 Flutter, GraphQL，为国内一家社交应用公司构建 Android 和 iOS 客户端、并上线 App Store
+  * 使用 React, Docker, OpenResty，为台湾一家公司构建海外加速的服务器节点编排和 Web 前端
   * 现为 [Xanthous Tech](https://www.upwork.com/agencies/~01eb51da1eac1b7032) 成员，在 Upwork.com 上为国际客户提供远程技术支持服务
 
 * {{< item title="知乎（北京）" date="2017/02 - 2019/03" subtitle="Android Architect" >}}
-  * 编写工具并配合 Traceview、Systrace 等对知乎客户端性能进行 Profile 和优化
+  * 编写工具并配合 Traceview, Systrace 等对知乎客户端性能进行 Profile 和优化
   * 为解决工程组件化的一系列问题，编写相关 Gradle 插件：
     * 可视化组件间依赖关系，并实现字节码依赖分析，结合 CI 来提醒新增代码的影响范围
     * 实现启动 Task 依赖管理和自动优化
@@ -36,7 +36,7 @@ title: 杨凡的简历
 
 * {{< item title="快乐迭代（北京）网络科技有限公司" date="2016/10 - 2017/01" subtitle="Android Tech Lead" >}}
   * 领导 Android 团队使用 Kotlin 开发社交应用类 App
-  * 为团队搭建 Maven、Jenkins 服务，并编排自动打渠道包等 Pipeline
+  * 为团队搭建 Maven, Jenkins 服务，并编排自动打渠道包等 Pipeline
 
 * {{< item title="广东数库互联网金融信息服务有限公司" date="2015/01 - 2016/09" subtitle="Android Tech Lead & Backend Developer" >}}
   * 领导 Android 团队使用 Kotlin 开发金融媒体类 App
