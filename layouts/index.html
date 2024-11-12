@@ -9,7 +9,7 @@
 
   <!-- css -->
   {{- $cssSource := resources.Get "css/main.scss" }}
-  {{- if .Site.IsServer }}
+  {{- if hugo.IsServer }}
   {{- $style := $cssSource | toCSS (dict "enableSourceMap" true) }}
   <link rel="stylesheet" href="{{ ($style | fingerprint).RelPermalink }}">
   {{- else }}
