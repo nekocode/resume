@@ -8,7 +8,7 @@ title: 杨凡的简历
 
 ## FULLSTACK DEVELOPER
 
-全栈、偏前端（Web/Android/Flutter）工程师，架构师，开源爱好者。本人 GitHub 账号（ID: [nekocode](https://github.com/nekocode)）已向开源社区贡献近百个项目，获得了近万个 Star，并向多个著名项目贡献过 PR。目前是 Semi Design 项目（由抖音团队开源）的前 20 名贡献者之一。
+全栈、偏前端（Web/Android/Flutter）工程师，架构师，开源爱好者。本人 GitHub 账号（ID: [nekocode](https://github.com/nekocode)）已向开源社区贡献近百个项目，获得了上万个 Star，并向多个著名项目贡献过 PR。目前是 Semi Design 项目（由抖音团队开源）的前 20 名社区贡献者之一。
 
 熟练于:
 
@@ -19,10 +19,10 @@ title: 杨凡的简历
 
 ## EMPLOYMENT HISTORY
 
-- {{< item title="BitMart.com" date="2025/04 - 2026/06" subtitle="Frontend Engineer" >}}
+- {{< item title="BitMart.com" date="2025/04 - 2026/06" subtitle="Frontend Engineer（B4，对标阿里 P7、三季度 A）" >}}
 
-  - 负责 AI Hub 部门 Web 基建服务，以及 Beacon（AI）、X Insight、跟单/网格的业务开发
-  - 跨职责，支援部门内移动端（Flutter）需求开发，主导 Beacon 业务、支持跟单业务
+  - 负责 AI Hub 部门 Web 从零基建服务，以及 Beacon（AI）、X Insight、跟单/网格业务开发
+  - 跨职责，支援部门内移动端（Flutter）需求开发，主导 Beacon 业务、以及支持跟单业务
   - 担任部门内 Agentic Coding 实践小组组长，带领部分组员实践 AI-First 研发模式
 
 - {{< item title="HXR.com" date="2021/09 - 2025/04" subtitle="Frontend Lead" >}}
