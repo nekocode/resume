@@ -19,11 +19,11 @@ title: 杨凡的简历
 
 ## EMPLOYMENT HISTORY
 
-- {{< item title="BitMart.com" date="2025/04 - 2026/06" subtitle="Frontend Engineer（B4，对标阿里 P7、三季度 A）" >}}
+- {{< item title="BitMart.com" date="2025/04 - 2026/06" subtitle="Frontend Engineer（B4、对标阿里 P7，三季度 A）" >}}
 
-  - 负责 AI Hub 部门 Web 从零基建服务，以及 Beacon（AI）、X Insight、跟单/网格业务开发
-  - 跨职责，支援部门内移动端（Flutter）需求开发，主导 Beacon 业务、以及支持跟单业务
-  - 担任部门内 Agentic Coding 实践小组组长，带领部分组员实践 AI-First 研发模式
+  - 从零搭建 AI 部门 Web 基建。负责 Beacon（AI）、X Insight、跟单/网格业务的 Web 开发
+  - 跨职责，支援移动端。独立负责 Beacon、跟单二期业务的 Flutter 开发
+  - 担任部门内 AI-First（AI 负责所有执行）实践小组组长，负责领导和管理 Beacon Deck 项目
 
 - {{< item title="HXR.com" date="2021/09 - 2025/04" subtitle="Frontend Lead" >}}
 
