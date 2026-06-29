@@ -2,7 +2,7 @@
 title: 杨凡的简历
 ---
 
-# 杨凡
+# 杨凡<span style="font-size: 24px; font-weight: normal;"> / Mark Yang</span>
 
 {{< contact email="nekocode.cn@gmail.com" wechat="nekocode" >}}
 
@@ -19,13 +19,13 @@ title: 杨凡的简历
 
 ## EMPLOYMENT HISTORY
 
-- {{< item title="BitMart.com" date="2025/04 - 2026/06" subtitle="Frontend Engineer（B4、对标阿里 P7，三季度 A）" >}}
+- {{< item title="BitMart.com" date="2025/04 - 2026/06" subtitle="Frontend Engineer（AI Hub 部门，职级 B4 / 对标阿里 P7，三季度 A）" >}}
 
-  - 从零搭建 AI 部门 Web 基建。负责 Beacon（AI）、X Insight、跟单/网格业务的 Web 开发
+  - 从零搭建 [AI Hub 子站](https://www.bitmart.com/ai) 的 Web 基建。负责 Beacon（AI）、X Insight、跟单/网格业务的 Web 开发
   - 跨职责，支援移动端。独立负责 Beacon、跟单二期业务的 Flutter 开发
   - 担任部门内 AI-First（AI 负责所有执行）实践小组组长，负责领导和管理 Beacon Deck 项目
 
-- {{< item title="HXR.com" date="2021/09 - 2025/04" subtitle="Frontend Lead" >}}
+- {{< item title="HXR.com" date="2021/09 - 2025/04" subtitle="Frontend Lead & Fullstack" >}}
 
   - 负责 Crypto 交易、量化工具 HXR.com/BitChat.ai 的前后端，以及策略研发（曾托管超 100 万美金）
   - 负责面向国内的 AI 平台 TiShi.top（50 万用户）的前端开发（Web, React Native, 微信小程序）
@@ -36,15 +36,15 @@ title: 杨凡的简历
   - 在 Upwork.com 上提供远程外包服务，并获得 TOP RATED（前 1%）评级。长期为英国最大灯柱横幅广告提供商 Bay Media 提供 Flutter 和 Web 技术外包服务
   - 长期为 BaseFEX Crypto 交易所（已被 BigONE 收购）提供 Android 技术外包服务
 
-- {{< item title="知乎（北京）" date="2017/02 - 2019/03" subtitle="Android Architect" >}}
+- {{< item title="知乎（北京）" date="2017/02 - 2019/03" subtitle="Android Architect（Android Infra 部门）" >}}
 
   - 维护知乎 Android 客户端（月活上亿）。参与架构设计，开发通用基础库，开发 Gradle 插件
-  - 对客户端性能进行 Profile 和优化，减少了将近 50% 的 P95 启动耗时，[详情](https://www.nekocode.cn/posts/2018_in_zhihu/)
+  - 对客户端性能进行 Profile 和优化，减少了将近 50% 的 P95 启动耗时，[详情](https://nekocode.cn/blog/2018/12/31/%E5%9C%A8%E7%9F%A5%E4%B9%8E%E7%9A%84-2018-%E5%B9%B4/)
   - 担任「知乎 x RxJava」主讲⼈，对外分享知乎团队使用 RxJava 的历史，并开源 [RxLifecycle](https://github.com/zhihu/RxLifecycle)
 
 - {{< item title="创业公司（广东数库金融、北京快乐迭代）" date="2015/01 - 2017/01" subtitle="Android Lead" >}}
 
-  - 在两个公司，领导所在 Android 团队使用 Kotlin 分别开发金融媒体类、社交类 App
+  - 在两个公司，分别领导所在 Android 团队使用 Kotlin 开发金融媒体和社交类 App
   - 为团队搭建 Maven, Jenkins 服务，设计渠道包自动打包等 CI Pipelines
   - 使用 Python 为公司开发公众号后端
 
